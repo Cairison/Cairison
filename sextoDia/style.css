@@ -1,0 +1,68 @@
+.title {
+  border-bottom:1px solid;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.normalButton{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 8px;
+  padding: 10px;
+  background: #Ec8276;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0px;
+  
+}
+
+.normalButton:hover {
+  
+  background: #FFc5b4;
+  
+  
+}
+
+.normalButton:active {
+  background: #FFA99D;
+  
+}
+
+.confirmButton {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 8px;
+  padding: 10px;
+  background: #2D7310;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.confirmButton:hover {
+  background: #4D944C;
+}
+
+.confirmButton:active {
+  background: #4D944C;
+}
+
+.deleteButton {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 8px;
+  padding: 10px;
+  background: #981111;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.deleteButton:hover {
+  background: #fc7777
+}

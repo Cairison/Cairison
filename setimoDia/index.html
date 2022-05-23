@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>#7DaysOfCode</title>
+    <meta charset="UTF-8" />
+  </head>
+    <body>
+      <form>
+        <table border="1">
+          <tr>
+            <th colspan="5"> Calculadora</th>
+          </tr>
+          <tr>
+            <td> primeiro valor <input type="text" name="val1" id='val1'></td>
+            <td>
+              <select name="sinal" id="sinal">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+              </select>
+            </td>
+            <td>segundo valor <input type="text" name="val2" id='val2'></td>
+            <td><input type="button" value="=" onclick="calcular();" name=""></td>
+            <td><input type="text" name="result" id="result"></td>
+          </tr>
+        </table>
+        <td><input type="button" value="resetar" onclick="resetar();" name=""></td>
+      </form>
+      <script src="./funcao.js"></script>
+    </body>
+</html>
